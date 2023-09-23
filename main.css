@@ -1,0 +1,221 @@
+.pseudo-clearfy-link {
+    color: #008acf;
+    cursor: pointer;
+}
+
+.pseudo-clearfy-link:hover {
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    .site-header {
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 768px) {
+    .site-header {
+        background-position: center center;
+    }
+}
+
+.card-slider__category span,
+.card-slider-container .swiper-pagination-bullet-active,
+.page-separator,
+.pagination .current,
+.pagination a.page-numbers:hover,
+.entry-content ul>li:before,
+.btn,
+.comment-respond .form-submit input,
+.mob-hamburger span,
+.page-links__item {
+    background-color: #002e69;
+}
+.entry-content blockquote.quote:before, .taxonomy-description blockquote.quote:before {
+    content: "\f10d";
+    top: 25px;
+    color: #002e69 !important;
+}
+.entry-content ul:not([class])>li:before, .taxonomy-description ul:not([class])>li:before {
+    color: #002e69 !important;
+}
+.entry-content ul:not([class])>li:before, .taxonomy-description ul:not([class])>li:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #002e69;
+    margin: 0 22px 0 -30px;
+}
+.spoiler-box,
+.entry-content ol li:before,
+.mob-hamburger,
+.inp:focus,
+.search-form__text:focus,
+.entry-content blockquote {
+    border-color: #002e69;
+}
+
+.entry-content blockquote:before,
+.spoiler-box__title:after,
+.sidebar-navigation .menu-item-has-children:after {
+    color: #002e69;
+}
+
+a,
+.spanlink,
+.comment-reply-link,
+.pseudo-link,
+.root-pseudo-link {
+    color: #002e69;
+}
+
+a:hover,
+a:focus,
+a:active,
+.spanlink:hover,
+.comment-reply-link:hover,
+.pseudo-link:hover {
+    color: #e66212;
+}
+
+body {
+    color: #333333;
+}
+
+.site-title,
+.site-title a {
+    color: #002e69;
+}
+
+.site-description,
+.site-description a {
+    color: #666666;
+}
+
+.main-navigation,
+.footer-navigation,
+.main-navigation ul li .sub-menu,
+.footer-navigation ul li .sub-menu {
+    background-color: #002e69;
+    /* background-color: #5a80b1; */
+    
+}
+
+.main-navigation ul li a,
+.main-navigation ul li .removed-link,
+.footer-navigation ul li a,
+.footer-navigation ul li .removed-link {
+    color: #ffffff;
+}
+
+body {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.site-title,
+.site-title a {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.site-description {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6,
+.entry-image__title h1,
+.entry-title,
+.entry-title a {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main-navigation ul li a,
+.main-navigation ul li .removed-link,
+.footer-navigation ul li a,
+.footer-navigation ul li .removed-link {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 576px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .site-title,
+    .site-title a {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 576px) {
+    .site-description {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .main-navigation ul li a,
+    .main-navigation ul li .removed-link,
+    .footer-navigation ul li a,
+    .footer-navigation ul li .removed-link {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) {
+    body {
+        line-height: 1.5;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .site-title,
+    .site-title a {
+        line-height: 1.1;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .main-navigation ul li a,
+    .main-navigation ul li .removed-link,
+    .footer-navigation ul li a,
+    .footer-navigation ul li .removed-link {
+        line-height: 1.5;
+    }
+}
+
+.scrolltop {
+    background-color: #cccccc;
+}
+
+.scrolltop:after {
+    color: #ffffff;
+}
+
+.scrolltop {
+    width: 50px;
+}
+
+.scrolltop {
+    height: 50px;
+}
+
+.scrolltop:after {
+    content: "\f102";
+}
+
+@media (max-width: 767px) {
+    .scrolltop {
+        display: none !important;
+    }
+}
