@@ -17,7 +17,9 @@
         background-position: center center;
     }
 }
-
+.one{
+    cursor: pointer !important;
+}
 .card-slider__category span,
 .card-slider-container .swiper-pagination-bullet-active,
 .page-separator,
